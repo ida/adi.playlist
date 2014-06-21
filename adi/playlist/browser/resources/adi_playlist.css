@@ -1,0 +1,73 @@
+/* DA WRAPPER */
+#playlist-container {
+background: #222;
+border: 1px solid #3f3f3f;
+color: #888;
+font-size: 11px;
+line-height: 1.5em;
+}
+/* Unify browserstyles: */
+#playlist-container *:focus {
+outline: 1px dotted #e2e2e2;
+}
+/* DA CONTROLS */
+#playlist-controls {
+height: 2em;
+padding: 0.25em 0;
+}
+#playlist-controls > span {
+float: left;
+padding: 0.25em;
+margin: 0 0.25em;
+height: 1.5em;
+}
+#playlist-controls > span:last-child {
+padding-right: 0;
+margin-right: 0;
+}
+#playlist-forward-button,
+#playlist-backward-button {
+letter-spacing: -0.35em;
+}
+/* DISPLAYED SONGTITLE */
+#playlist-ticker {
+width: 55.5%;
+overflow: hidden;
+color: #e2e2e2;
+}
+/* DA LIST */
+#playlist-container ul {
+clear: both;
+background: #111;
+list-style-type: decimal-leading-zero;
+list-style-position: inside;
+padding: 0.75em 0.25em 0.75em 0.8em ;
+margin: 0;
+max-height: 277px;
+overflow-y: auto;
+overflow-x: auto;
+}
+/* Reset possibly inherited styles: */
+#playlist-container li {
+margin: 0;
+padding: 0;
+line-height: 1.5em;
+}
+/* SELECTA */
+#selected-track {
+color: #e2e2e2;
+}
+.loop {
+color: lightgreen;
+}
+#playlist-container li:before {
+content: '\25B6';
+display: inline-block;
+height: 1.5em;
+width: 1.5em;
+padding-left: 0.25em;
+}
+#playlist-container .isPlaying:before {
+    content: "\2016\2016";
+}
+/* EOF */

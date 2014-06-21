@@ -1,0 +1,23 @@
+<configure
+ xmlns="http://namespaces.zope.org/zope"
+ xmlns:five="http://namespaces.zope.org/five"
+ xmlns:browser="http://namespaces.zope.org/browser"
+ i18n_domain="my.package">
+
+ <include package="plone.app.contentmenu" />
+
+	<browser:resourceDirectory
+		name="adi.playlist.resources"
+		directory="resources"
+		layer=".interfaces.IAdiPlaylist"
+	/>
+
+	<browser:page
+		for="*"
+		name="adi_playlist_view"
+		template="adi_playlist_view.pt"
+		permission="zope2.View"
+		layer=".interfaces.IAdiPlaylist"
+	/>
+
+</configure>
