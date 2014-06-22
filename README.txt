@@ -7,7 +7,7 @@ A Plone add-on to turn a folder holding audio-files into a playlist.
 Usage
 =====
 
-Fill a folder with audiofiles, select 'adi_playlist' of the "Display"-dropdown-menu to change the view of the folder and a a playlist will be shown.
+Fill a folder with audiofiles, select 'adi_playlist' of the "Display"-dropdown-menu to change the view of the folder and a playlist will be shown.
 
 Default behaviour is to play the list until its end, one track after another, optionally click the inifinity-symbol to play the list infinitely in a loop.
 
@@ -25,7 +25,7 @@ Background
 
 This product takes advantage of browser-native audio-players, using the audio-tag introduced with HTML5 and the fact that all major browsers support this by now, dropping the need to provide a serverside-player.
 
-However there are restrictions of supporting all of the possible audio-file-formats, depending on the browser'S capabilities or choosen lack of support.
+However there are restrictions of supporting all of the possible audio-file-formats, depending on the browser's capabilities or choosen lack of support.
 
 The add-on was written to use in conjunction with OGG-formats ('.ogg'-extension), expressing the love of the author for open (=non-proprietary) standards, dropping support to Safari, the only major-browser not supporting Vorbis.
 

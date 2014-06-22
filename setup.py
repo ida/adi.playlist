@@ -1,10 +1,9 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1'
 
 setup(name='adi.playlist',
-      version=version,
+      version='0.2',
       description="Create a playlist in a folder filled with audio-files, using HTML5's audio-tag.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
@@ -17,7 +16,7 @@ setup(name='adi.playlist',
       keywords='',
       author='Ida Ebkes',
       author_email='contact@ida-ebkes.eu',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/ida/adi.playlist',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['adi'],
