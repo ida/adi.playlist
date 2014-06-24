@@ -1,13 +1,21 @@
 Changelog
 =========
 
-0.1 (2014-06-22)
+0.3 (2014-06-22)
+-------------------
+
+- Adjust MANIFEST and remove trash.
+
+
+
+0.2 (2014-06-22)
 -------------------
 
 - Add MANIFEST.in and repo-url.
 
 
-0.1dev (2014-06-20)
+
+0.1 (2014-06-20)
 -------------------
 
 - Initial release

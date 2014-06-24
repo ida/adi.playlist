@@ -3,7 +3,7 @@ import os
 
 
 setup(name='adi.playlist',
-      version='0.2',
+      version='0.3',
       description="Create a playlist in a folder filled with audio-files, using HTML5's audio-tag.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
