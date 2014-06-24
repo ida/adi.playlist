@@ -1,3 +1,0 @@
-- isPlaying doesnt apply after load starting player (ini)
-
-- loop...
